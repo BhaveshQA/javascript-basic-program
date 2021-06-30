@@ -1,0 +1,130 @@
+JSON >> Javascript Object Notation
+Common structured format which can multiple machine can understand. For data transfer
+
+JSON is lightweight communication language
+JSON built on 2 structured
+
+Object
+-A collection of Name value
+-Object startwith Left curly brace and endwith right curly brace
+-each name is followed by : 
+-each value seperate by comma
+ex
+
+{
+ name:"bhavesh",
+ job :"QA Engineer"
+},
+
+ 
+ 
+Array
+-An ordered list of values
+- Array startwith the left square bracket and endwith right square bracket
+
+JSON Exmple 1
+
+{
+   "Users":[
+      {
+         "Firstname":"bhavesh",
+         "Lastname":"rathod",
+         "id":1
+      }
+   ]
+}
+JSON Example 2
+
+
+
+>> json validator
+
+{
+   "Users" : [
+    
+      {
+	    "Name" : "Bhavesh",
+		"Lastname" : "Rathod",
+		"id" : 1
+	  },
+	  {
+	    "Name" : "Hina",
+		"Lastname" : "Rathod",
+		"id" : 1
+	  }
+	  
+   ]
+ }
+
+   
+  ----------------------------------
+  json path
+  >>its query language
+  >>helps to pass json data
+  
+  https://jsonpathfinder.com/  >> This will helps in the create a json path
+  
+  https://jsonpath.com/ >> This site helps in the evaluate the JSON path
+  
+  
+  -------------------------------------
+  JSON SCHEMA
+  >> Used for the validate formatting, syntax, datatypes and strucure
+  
+  https://www.liquid-technologies.com/online-json-to-schema-converter
+ 
+ {
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Users": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "Name": {
+              "type": "string"
+            },
+            "Lastname": {
+              "type": "string"
+            },
+            "id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "Name",
+            "Lastname",
+            "id"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Name": {
+              "type": "string"
+            },
+            "Lastname": {
+              "type": "string"
+            },
+            "id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "Name",
+            "Lastname",
+            "id"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "Users"
+  ]
+}
+
+ 
+ https://www.linkedin.com/learning/javascript-and-json-integration-techniques/welcome

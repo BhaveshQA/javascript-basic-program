@@ -1,0 +1,115 @@
+Mozila browse's javascipt guilde
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+
+https://www.youtube.com/watch?v=Qqx_wzMmFeA
+
+Day 1 : 15/06/2021
+1. How to run javascript in the browser
+2. How to maniupulate DOM with Javascript
+3. Numbers in javascript
+4. Function in javascript
+5. While and For loop [Need to check for..in loop]
+6. datatype in javascript
+7. Ojects in javascript
+8. JSON
+9. Factory function
+10. Constructor Function
+11. Primitive and Ref type
+
+number, string , symbol, boolean, undefined, null are part of premitive
+function, object, array are part of Ref type
+
+premitive are copied by their values
+object are copied by their reference
+
+11. Add/ Removing Object property
+12. Abstraction
+13. Object
+- create object with below way
+1. Object literal
+let car = { Model : 'BMW',
+			Speed : 1000
+			price : function (){
+			 
+			 body of the function
+			}
+			
+			location : { country : 'india',State: 'Gujarat', City :'Ahmedabad'}
+			}
+
+2.Using constructor
+
+function Car() {
+
+this.model = 'TATA'
+this.price = 100000
+}
+
+const car = new Car()
+
+3. Using the Object.crate()
+
+const a = {name : 'bhavesh'}
+
+const b = Object.create(a)
+
+
+14. Inheritance
+-ES6 -javascipt version support the class concept. It is one type of the Object
+
+
+
+
+
+
+https://www.youtube.com/watch?v=1h46cNkyXlE
+
+
+
+
+
+oops concept
+https://www.youtube.com/watch?v=PFmuCDHHpwk
+
+1. Encapsulation  >> Reduce complexity + increase reuseability
+2. Abstraction    >> Reduce complexity + isolate impact of code changes
+3. Inheritance    >> Eliminate redundant code
+4. Polymorphism   >> use one things in multiple form
+
+
+
+
+Need to check this javascript code
+https://www.youtube.com/watch?v=KGkiIBTq0y0
+
+1. Values and Variables
+2. Datatypes 
+3. Expression and Operators
+-What is differance between == and === ?
+- in == it only check the value of the variable
+- in === it check the value of the variable as well as variable type
+4. Control statment and Loop [If , while, do while , for, switch ]
+5. Function
+6. Array  [4:19:47]
+7. String 
+8. Date and Time
+9. javascipt Math Object
+10.DOM/BOM
+
+Morden Javascript
+ECMAscript
+1.
+var - function scope
+let and const - block scope
+
+2. Template literals
+use backtis and ${variable} 
+ex
+console.log{`i am ${name}`}
+
+3. default parameter in function
+
+4. fat arrow function
+
+var sun=()==>
